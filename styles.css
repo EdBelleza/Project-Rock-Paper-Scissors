@@ -1,0 +1,59 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  box-sizing: border-box;
+}
+body {
+  background-color: #111827;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+header {
+  margin: auto;
+  font-size: 25px;
+  padding: 25px;
+  border-bottom: 1px solid #ffffff;
+  width: 80%;
+}
+.instructions {
+  margin: 35px;
+  font-size: 20px;
+}
+.instructions > h3 {
+  margin: 15px;
+}
+.handScores {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.handScore-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 175px;
+  height: 175px;
+}
+.sign {
+  font-size: 85px;
+}
+.optionHands {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin: 25px;
+}
+.hands {
+  background-color: #1f2937;
+  font-size: 75px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+.hands:hover {
+  background-color: #4b5563;
+}
